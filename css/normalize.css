@@ -20,7 +20,7 @@
    * Remove the margin in all browsers.
    */
   
-  body {
+   body {
     margin: 0;
   }
   
@@ -41,7 +41,7 @@
     font-size: 2em;
     margin: 0.67em 0;
   }
-  
+ 
   /* Grouping content
      ========================================================================== */
   
@@ -145,7 +145,7 @@
    * Remove the border on images inside links in IE 10.
    */
   
-  img {
+   img {
     border-style: none;
   }
   
@@ -347,4 +347,29 @@
   [hidden] {
     display: none;
   }
-  
+  h2{
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 15px;
+  }
+.barraapi{
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+}
+.imgnot{
+display: block;
+margin: auto;
+}
+h4{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.parrafonot{
+  padding-top: 20px;
+}
+.p-3{
+  display: none;
+}
