@@ -51,7 +51,7 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .elemento{
-        background-color: rgb(106, 157, 216);
+        background-color: orange;
         height: 600px;
         width: 454px;
         text-align: unset;
@@ -64,9 +64,9 @@
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .elemento{
-        background-color: orange;
-        height: 50px;
-        width: 34px;
+        background-color: rgb(132, 188, 226);
+        height: 600px;
+        width: 454px;
         text-align: center;
         padding: 5px;
         border: 1px black solid;
