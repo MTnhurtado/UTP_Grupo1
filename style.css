@@ -7,7 +7,8 @@ body{
     width: 1200px;
     background-color: #888888;
     height: 2000px;
-    align-self: center;
+    -ms-flex-item-align: center;
+        align-self: center;
     margin: 0px auto;
     padding: 0 auto;
 }
@@ -21,6 +22,8 @@ body{
 .container-menu{
     height: 60px;
     background-color: antiquewhite;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
 
@@ -69,28 +72,9 @@ body{
     text-align: center;
 }
 
-.section-1{
-    height: 500px;
-    background-color: rebeccapurple;
-
-}
-
-.section-2{
-    height: 500px;
-    background-color: gainsboro;
-}
-
 .section-3{
     height: 500px;
-    background-color: coral;
-}
-
-.footer{
-    height: 200px;
-    background-color: yellowgreen;
-    bottom: 0px;
-    /* position: fixed; */
-    /* width: 1200px; */
+    background-color: black;
 }
 
 .section-text{
@@ -101,91 +85,44 @@ body{
     text-align: center;
 }
 
-.col-3{
-    width: 33.08%;
-    height: 470px;
-    background-color: aquamarine;
-    display: inline-block;
-    padding: -15px;
-    margin-top: 5px;
-    text-align: center;
-}
 .col-5{
-    width: 19%;
+    width: 30%;
     height: 470px;
     display: inline-block;
     margin: 5px 4px 0;
     text-align: center;
-    background-color: rgb(255, 177, 148);
+    background-image: url('./bg.png');
+    background-color: rgb(202, 200, 195);
 }
-
-.service-content{
-    padding: 0.5em 0;
-}
-.service-text{
-    padding: 10px;
-    text-align: justify;
-    bottom: 0;
-}
-
-.service-text.memebers{
-    font-style: italic; 
-}
-
-.section-news > div:first-child{
-    margin-bottom: 2px; 
-}
-.news{
-    width: 100%;
-    background-color: cadetblue;
-    height: 240px;
-    display: inline-flex;
-}
-
-.news > div:first-child{
-    margin: 0 6px;
-}
-
-.news-data{
-    width: 49%;
-    height: 100%;
-    background-color: rebeccapurple;
-    display: inline-flex; 
-}
-
-.news-image{
-    margin: 10px 0;
-    padding: 0 40px;
-    color: white;
-}
-
-.news-text{
-    color: white;
-    text-align: justify;
-    width: 49%;
-    padding: 1em 0;
-}
-
-.news-text > span.news-url{
-    text-align: right;
-}
-
 
 .fa-ambulance.news-logo{
     padding: 0.25em 0;
 }
 
-
-.news-url{
-    font-size: 10px;
-    float: right;
-}
-
-.news-url > a{
-
-    color: #ffffff; 
-}
-
 hr{
     color: white;
+}
+
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item{
+    line-height: 3;
+}
+
+.main-menu__link{
+    text-decoration: none;
+    font-size: 1em;
+    color: #3e3e3e;
+}
+
+.main-menu__link:hover{
+    text-decoration: underline;
+    font-weight: bold;
 }
