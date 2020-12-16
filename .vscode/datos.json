@@ -1,26 +1,31 @@
-{
+{   
     {
-        codigo : 1 ,
-        nombre : 'Sebastian Cruz' ,
-        descripcion : 'Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Mauris condimentum ac elit et accumsan.' ,
-        rol : 'Desarrollador backend' ,
-        image : 'images/sebastianCruz.jpg'
-    },
-    {
-        codigo : 2 ,
-        nombre : 'Felipe Gil' ,
-        descripcion : 'Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Mauris condimentum ac elit et accumsan.' ,
-        rol : 'Desarrollador2 backend' ,
-        image : 'images/felipeGil.jpg'
-    },
-    {
-        codigo : 3 ,
-        nombre : 'Nelson Hurtado' ,
-        descripcion : 'Ingeniero Electronico, Universidad Santo Tomas 2001,
-        Especialista en Automatizacion y control Industrial. Docente ITC' ,
-        rol : 'Desarrollador3 backend' ,
-        image : 'images/nelsonHurtado.jpg'
+        "Team":    
+        [
+            {
+            codigo : 1 ,
+            nombre : "Sebastian Cruz" ,
+            descripcion : "Geólogo junior de 24 años de la Universidad Nacional de Colombia, 
+            sin experiencia previa en desarrollo de Software." ,
+            rol : "Github organizer" ,
+            image : ".vscode/images/sebastianCruz.jpg"
+            },
+            {
+            codigo : 2 ,
+            nombre : "Felipe Gil" ,
+            descripcion : "Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Mauris condimentum ac elit et accumsan." ,
+            rol : "Desarrollador backend" ,
+            image : ".vscode/images/felipeGil.jpg"
+            },
+            {
+            codigo : 3 ,
+            nombre : "Nelson Hurtado" ,
+            descripcion : "Ingeniero Electronico, Universidad Santo Tomas 2001,
+            Especialista en Automatizacion y control Industrial. Docente ITC" ,
+            rol : "Desarrollador backend" ,
+            image : ".vscode/images/nelsonHurtado.jpg"
+            }
+        ]
     }
 }

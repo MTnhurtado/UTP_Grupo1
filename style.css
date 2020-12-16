@@ -99,6 +99,19 @@ body{
     padding: 0.25em 0;
 }
 
+.service-content{
+    padding: 0.5em 0;
+}
+.service-text{
+    padding: 10px;
+    text-align: justify;
+    bottom: 0;
+}
+
+.service-text.members{
+    font-style: italic; 
+}
+
 hr{
     color: white;
 }
